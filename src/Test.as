@@ -129,7 +129,7 @@ package {
 					break;
 					
 				case btn_play_loop :
-					_manager.play( 'loop1' );
+					_manager.play( 'loop1', 9999 );
 					break;
 					
 				case btn_pause_loop : 

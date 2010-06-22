@@ -85,7 +85,7 @@ package utils.sound {
 			}
 		}
 		
-		public function play( key : String, loops : int = 1 ) : void
+		public function play( key : String, loops : int = 0 ) : void
 		{
 			var sound : Sound;
 			var channel : SoundChannel;
